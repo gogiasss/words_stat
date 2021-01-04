@@ -1,7 +1,7 @@
 import collections
 
 #в кавычках имя файла в котором считаем
-with open('210104-list-sample.txt') as f:
+with open('file.txt') as f:
     content = f.readlines()
 
 content = [x.strip() for x in content]
